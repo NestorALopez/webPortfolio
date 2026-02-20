@@ -9,7 +9,7 @@ It is divided into small projects, each serving as a practice for foundations of
 - **Current Status:** For now, it features HTML-focused projects.
 - **Coming Soon:** CSS and JavaScript projects will be added shortly as my learning progresses.
 
-## Site of the project
+## Project site
 
 The live site for this repository can be found at:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 👉 [Néstor's Web Portfolio 🧑‍💻](https://nestoralopez.github.io/webPortfolio/)
