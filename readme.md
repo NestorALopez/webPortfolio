@@ -18,7 +18,8 @@ The live site for this repository can be found at:\
 
 1. (Feb 19, 2026): Initialized portfolio and repository structure
 2. (Feb 20, 2026): Added "Guest Box" form logic and links for the following projects:
-   - Favorite Songs Project (HTML practice)
+   - Favorite Songs project (HTML practice)
+   - George Cantor project (HTML practice)
 
 ### Feedback
 
