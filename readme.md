@@ -21,6 +21,7 @@ The live site for this repository can be found at:\
    - Favorite Songs project
    - Georg Cantor project
 3. (Feb 21, 2026) Added About Me project and initialized My Readings project
+4. (Feb 22, 2026) Added CV project
 
 ### Feedback
 
