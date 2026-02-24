@@ -4,25 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Readings</title>
-    <link rel="icon" href="../../assets/icons/iconBook.png" />
+    <link rel="icon" href="../../../assets/icons/iconBook.png" />
   </head>
   <body>
-    <!-- This site is meant to display my books, whether I've read, I'll read next, or I'm reading it. 
-     I plan to use this site as a reference: https://chester.how/reading -->
+    <!-- This site is meant to display my books, whether I've read, I'll read next, or I'm reading it. I plan to use this site as a reference: https://chester.how/reading Use type=range to ask the user to rant each book -->
 
     <h1>My Readings 📖</h1>
 
-    What I've read, what I'll read, and what I'm reading, plus some thoughts.
+    <p>
+      What I've read, what I'll read, and what I'm reading, plus some thoughts.
+    </p>
+
     <form action="./myReadings.html" method="get">
-      <p>To know if I've read a particular book, you can use this:</p>
-      <label for="search">Search:</label>
-      <input
-        type="search"
-        id="search"
-        name="search"
-        placeholder="Book's name"
-      />
-      <button type="submit">&#x1F50D;</button>
+      <span>
+        To know if I've read a particular book, you can use the search box:
+      </span>
+      <input type="search" name="search" placeholder="Book's name" required />
+      <button type="submit">Search &#x1F50D;</button>
     </form>
 
     <table>
@@ -113,6 +111,7 @@
               <p>Hábitos atómicos</p>
               <a
                 href="https://www.goodreads.com/book/show/45028173-h-bitos-at-micos?from_search=true&from_srp=true&qid=cThpw7cftH&rank=1"
+                target="_blank"
                 ><img
                   src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555084828i/45028173.jpg"
                   alt="Cover of Hábitos atómicos"
