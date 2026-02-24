@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Race Registration Form</title>
+    <link rel="icon" href="../../assets/icons/iconRun.png" />
+  </head>
+  <body>
+    <h1>Race Registration 🏃‍➡️</h1>
+
+    <form action="#">
+      <p>
+        <label for="firstName">First Name: </label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Dante"
+          required
+        />
+
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Torobolino"
+          required
+        />
+      </p>
+
+      <p>
+        Select race: <br />
+
+        <input
+          type="radio"
+          id="funRunMarathon"
+          name="race"
+          value="10"
+          required
+        />
+        <label for="funRunMarathon">Fun Run 5 km</label>
+
+        <input type="radio" id="halfMarathon" name="race" value="20" />
+        <label for="halfMarathon">Half Marathon</label>
+
+        <input type="radio" id="fullMarathon" name="race" value="40" />
+        <label for="fullMarathon">Full Marathon</label>
+      </p>
+
+      <p>
+        <label for="ageGroup"> Age group: </label>
+        <select name="ageGroup" id="ageGroup" required>
+          <option value="" selected>--Select an age group--</option>
+          <option value="15_18Range">15 - 18 years old</option>
+          <option value="18_30Range">19 - 30 years old</option>
+          <option value="31-50Range">31 - 50 years old</option>
+          <option value="51PlusRange">51+ years old</option>
+        </select>
+      </p>
+
+      <p>
+        If you want to get notifications for updates about the race, register an
+        email:
+        <input type="email" name="email" id="email" />
+      </p>
+
+      <button type="submit">Register!</button>
+    </form>
+  </body>
+</html>
