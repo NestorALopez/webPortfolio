@@ -23,6 +23,7 @@ The live site for this repository can be found at:\
 3. (Feb 21, 2026) Added About Me project and initialized My Readings project
 4. (Feb 22, 2026) Added CV project
 5. (Feb 24, 2026) Initialized Quotes project, and added My Readings and Race Registration projects
+6. (Feb 27, 2026) Add Social Links Profile project
 
 ### Feedback
 
